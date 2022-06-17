@@ -1,0 +1,31 @@
+.calendar_day {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.calendar_day-title {
+  font-size: .6rem;
+  font-weight: 400;
+}
+
+.calendar_day-subtitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.current_day {
+  color: #a29eaa;
+}
+
+.selected_day_container {
+  background-color: blue;
+  border-radius: 6px;
+  /* border-radius: 50%; */
+}
+
+.selected_day {
+ color: #fff;
+}

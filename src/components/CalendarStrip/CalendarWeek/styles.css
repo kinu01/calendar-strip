@@ -1,0 +1,9 @@
+.calendar_week {
+  display: flex;
+}
+
+.calendar_week-icon {
+  padding: 5px;
+  cursor: pointer;
+}
+

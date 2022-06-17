@@ -1,0 +1,10 @@
+.calendar_header {
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar_header-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
