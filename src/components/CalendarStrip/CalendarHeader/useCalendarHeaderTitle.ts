@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import { getTitleFromCurrentWeek, getTitleFromSelectedDate } from "./utils";
+import { getTitleFromWeekDates, getTitleFromSelectedDate } from "./utils";
 
 const useCalendarHeaderTitle = (weekDates: Date[], selectedDate?: Date) => {
   const [headerTitle, setHeaderTitle] = useState("");
 
   useEffect(() => {
-    const titleFromCurrentWeek = getTitleFromCurrentWeek(weekDates);
+    const titleFromCurrentWeek = getTitleFromWeekDates(weekDates);
 
     setHeaderTitle(titleFromCurrentWeek);
 

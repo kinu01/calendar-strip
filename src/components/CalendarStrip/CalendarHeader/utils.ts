@@ -10,7 +10,7 @@ export const getTitleFromSelectedDate = (selectedDate: Date) => {
   return `${month} ${year}`;
 };
 
-export const getTitleFromCurrentWeek = (weekDates: Date[]) => {
+export const getTitleFromWeekDates = (weekDates: Date[]) => {
   const months: Set<string> = new Set();
   const years: Set<string> = new Set();
 
