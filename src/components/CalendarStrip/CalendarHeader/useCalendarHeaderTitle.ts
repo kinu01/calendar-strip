@@ -5,9 +5,9 @@ const useCalendarHeaderTitle = (weekDates: Date[], selectedDate?: Date) => {
   const [headerTitle, setHeaderTitle] = useState("");
 
   useEffect(() => {
-    const titleFromCurrentWeek = getTitleFromWeekDates(weekDates);
+    const titleFromWeekDates = getTitleFromWeekDates(weekDates);
 
-    setHeaderTitle(titleFromCurrentWeek);
+    setHeaderTitle(titleFromWeekDates);
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [weekDates]);
